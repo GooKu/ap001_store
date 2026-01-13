@@ -1,0 +1,1407 @@
+{
+    "gold_coin": {
+        "name": {
+            "zh-tw": "金幣",
+            "en-us": "Gold Coin"
+        },
+        "description": {
+            "zh-tw": "通用的貨幣，閃閃發光。",
+            "en-us": "Common currency, shiny and bright."
+        },
+        "price": 1,
+        "stackable": true,
+        "type": "currency",
+        "elements": {
+            "金": 1
+        },
+        "entropy": 1
+    },
+    "red_herb": {
+        "name": {
+            "zh-tw": "火焰草",
+            "en-us": "Red Herb"
+        },
+        "description": {
+            "zh-tw": "生長在火山附近的紅色藥草，葉片微溫。",
+            "en-us": "Red herbs growing near volcanoes, the leaves are warm to the touch."
+        },
+        "price": 10,
+        "stackable": true,
+        "tags": [
+            "herb",
+            "hot"
+        ],
+        "elements": {
+            "火": 1,
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "water_flask": {
+        "name": {
+            "zh-tw": "純水瓶",
+            "en-us": "Water Flask"
+        },
+        "description": {
+            "zh-tw": "經過蒸餾處理的乾淨水源，是煉金術的基礎。",
+            "en-us": "Distilled clean water, the foundation of alchemy."
+        },
+        "price": 5,
+        "stackable": true,
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 1
+        },
+        "entropy": 1
+    },
+    "potion_heal_s": {
+        "name": {
+            "zh-tw": "初級治療藥水",
+            "en-us": "Potion Heal S"
+        },
+        "icon": "http://aps-store.goostudio.tw/items/potion_heal_s.png",
+        "description": {
+            "zh-tw": "煉金術師入門的第一堂課，味道像草莓糖漿。",
+            "en-us": "The first lesson for apprentice alchemists, tastes like strawberry syrup."
+        },
+        "price": 50,
+        "stackable": true,
+        "type": "potion",
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 1,
+            "木": 1,
+            "聖": 1
+        },
+        "hp_restore": 30,
+        "entropy": 15
+    },
+    "potion_heal_m": {
+        "name": {
+            "zh-tw": "中級治療藥水",
+            "en-us": "Potion Heal M"
+        },
+        "description": {
+            "zh-tw": "進階的煉金藥水，能夠治癒更深的傷口，味道像酸甜的橘子味。",
+            "en-us": "Advanced alchemy potion capable of healing deeper wounds, tastes like sweet and sour orange."
+        },
+        "price": 120,
+        "stackable": true,
+        "type": "potion",
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 2,
+            "木": 2,
+            "聖": 2
+        },
+        "hp_restore": 80,
+        "entropy": 50
+    },
+    "blue_herb": {
+        "name": {
+            "zh-tw": "冰霜草",
+            "en-us": "Blue Herb"
+        },
+        "description": {
+            "zh-tw": "生長在寒冷地區的藍色藥草，葉片冰涼。",
+            "en-us": "Blue herbs growing in cold regions, the leaves are chilly to the touch."
+        },
+        "price": 10,
+        "stackable": true,
+        "tags": [
+            "herb"
+        ],
+        "elements": {
+            "水": 2,
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "glowing_mushroom": {
+        "name": {
+            "zh-tw": "夜光菇",
+            "en-us": "Glowing Mushroom"
+        },
+        "description": {
+            "zh-tw": "在黑暗中會發出微弱光芒的奇特菇類。",
+            "en-us": "Strange mushrooms that emit a faint glow in the dark."
+        },
+        "price": 20,
+        "stackable": true,
+        "elements": {
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "crystal_fragment": {
+        "name": {
+            "zh-tw": "水晶碎片",
+            "en-us": "Crystal Fragment"
+        },
+        "description": {
+            "zh-tw": "純淨的水晶碎片，可以用於多種工藝。",
+            "en-us": "Pure crystal fragments used in various crafts."
+        },
+        "price": 30,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "elements": {
+            "土": 1
+        },
+        "entropy": 15
+    },
+    "monster_bone": {
+        "name": {
+            "zh-tw": "魔物硬骨",
+            "en-us": "Monster Bone"
+        },
+        "description": {
+            "zh-tw": "從魔物身上取下的堅硬骨頭。",
+            "en-us": "Hard bones taken from monsters."
+        },
+        "price": 25,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "elements": {
+            "魔": 1
+        },
+        "entropy": 15
+    },
+    "beast_fang": {
+        "name": {
+            "zh-tw": "野獸尖牙",
+            "en-us": "Beast Fang"
+        },
+        "description": {
+            "zh-tw": "野獸的尖牙，可以用來製作武器或飾品。",
+            "en-us": "Beast fangs used to craft weapons or accessories."
+        },
+        "price": 25,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "entropy": 15
+    },
+    "empty_bottle": {
+        "name": {
+            "zh-tw": "空瓶子",
+            "en-us": "Empty Bottle"
+        },
+        "description": {
+            "zh-tw": "一個乾淨的空瓶子，可以用來裝各種液體。",
+            "en-us": "A clean empty bottle used to hold various liquids."
+        },
+        "price": 2,
+        "stackable": true,
+        "entropy": 1
+    },
+    "slime_extract": {
+        "name": {
+            "zh-tw": "史萊姆汁",
+            "en-us": "Slime Extract"
+        },
+        "description": {
+            "zh-tw": "從史萊姆身上收集的黏稠液體，是常見的煉金材料。",
+            "en-us": "Viscous liquid collected from slimes, a common alchemy material."
+        },
+        "price": 10,
+        "stackable": true,
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 1
+        },
+        "entropy": 5
+    },
+    "fairy_dust": {
+        "name": {
+            "zh-tw": "妖精粉塵",
+            "en-us": "Fairy Dust"
+        },
+        "description": {
+            "zh-tw": "收集自妖精翅膀的閃亮粉塵，帶有微弱的魔力。",
+            "en-us": "Sparkling dust gathered from fairy wings, containing faint magical power."
+        },
+        "price": 50,
+        "stackable": true,
+        "entropy": 15
+    },
+    "griffin_feather": {
+        "name": {
+            "zh-tw": "獅鷲羽毛",
+            "en-us": "Griffin Feather"
+        },
+        "description": {
+            "zh-tw": "從獅鷲身上掉落的羽毛，輕盈而堅韌。",
+            "en-us": "Feathers dropped from griffins, light yet tough."
+        },
+        "price": 80,
+        "stackable": true,
+        "entropy": 30
+    },
+    "mandrake_root": {
+        "name": {
+            "zh-tw": "曼陀羅草根",
+            "en-us": "Mandrake Root"
+        },
+        "description": {
+            "zh-tw": "外形像人形的奇特植物根部，處理時要很小心。",
+            "en-us": "Strange plant roots shaped like humans, handle with extreme care."
+        },
+        "price": 120,
+        "stackable": true,
+        "tags": [
+            "herb"
+        ],
+        "elements": {
+            "木": 2
+        },
+        "entropy": 50
+    },
+    "moon_spring_water": {
+        "name": {
+            "zh-tw": "月光泉水",
+            "en-us": "Moon Spring Water"
+        },
+        "description": {
+            "zh-tw": "只在月光下湧現的泉水，散發著柔和的銀色光芒。",
+            "en-us": "Spring water that only emerges under moonlight, emitting a soft silver glow."
+        },
+        "price": 25,
+        "stackable": true,
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 1,
+            "聖": 1
+        },
+        "entropy": 15
+    },
+    "starlight_dew": {
+        "name": {
+            "zh-tw": "星光純露",
+            "en-us": "Starlight Dew"
+        },
+        "description": {
+            "zh-tw": "從吸收了整晚星光的葉片上收集的露水，閃爍著點點繁星。",
+            "en-us": "Dew collected from leaves that absorbed starlight all night, sparkling like stars."
+        },
+        "price": 30,
+        "stackable": true,
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 1,
+            "聖": 1
+        },
+        "entropy": 15
+    },
+    "lava_extract": {
+        "name": {
+            "zh-tw": "熔岩精粹",
+            "en-us": "Lava Extract"
+        },
+        "description": {
+            "zh-tw": "從滾燙的熔岩中提煉的火熱液體，觸感熾熱。",
+            "en-us": "Fiery liquid extracted from scalding lava, sizzling to the touch."
+        },
+        "price": 75,
+        "stackable": true,
+        "tags": [
+            "liquid",
+            "hot"
+        ],
+        "elements": {
+            "火": 2
+        },
+        "entropy": 30
+    },
+    "frozen_tear": {
+        "name": {
+            "zh-tw": "冰霜之淚",
+            "en-us": "Frozen Tear"
+        },
+        "description": {
+            "zh-tw": "永不融化的淚珠狀冰晶，散發著刺骨的寒氣。",
+            "en-us": "Tear-shaped ice crystals that never melt, emitting a bone-chilling cold."
+        },
+        "price": 75,
+        "stackable": true,
+        "elements": {
+            "水": 2
+        },
+        "entropy": 30
+    },
+    "dream_nectar": {
+        "name": {
+            "zh-tw": "夢境花蜜",
+            "en-us": "Dream Nectar"
+        },
+        "description": {
+            "zh-tw": "來自夢境之花的甘甜花蜜，帶有令人安心的香氣。",
+            "en-us": "Sweet nectar from dream flowers, carrying a soothing aroma."
+        },
+        "price": 100,
+        "stackable": true,
+        "tags": [
+            "liquid"
+        ],
+        "entropy": 30
+    },
+    "healing_herb": {
+        "name": {
+            "zh-tw": "治癒草",
+            "en-us": "Healing Herb"
+        },
+        "description": {
+            "zh-tw": "常見的藥用植物，嚼碎敷在傷口上可以加速癒合。",
+            "en-us": "A common medicinal plant, crushed and applied to wounds to speed up healing."
+        },
+        "price": 10,
+        "stackable": true,
+        "tags": [
+            "herb"
+        ],
+        "elements": {
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "vitality_root": {
+        "name": {
+            "zh-tw": "活力根",
+            "en-us": "Vitality Root"
+        },
+        "description": {
+            "zh-tw": "咬一口就能感覺到源源不絕的活力，雖然味道有點苦。",
+            "en-us": "A single bite brings a surge of vitality, though it tastes somewhat bitter."
+        },
+        "price": 20,
+        "stackable": true,
+        "tags": [
+            "herb"
+        ],
+        "elements": {
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "lucky_clover": {
+        "name": {
+            "zh-tw": "幸運草",
+            "en-us": "Lucky Clover"
+        },
+        "description": {
+            "zh-tw": "極其罕見的四葉草，據說能帶來好運。",
+            "en-us": "An extremely rare four-leaf clover, said to bring good luck."
+        },
+        "price": 40,
+        "stackable": true,
+        "tags": [
+            "herb"
+        ],
+        "elements": {
+            "木": 1,
+            "聖": 1
+        },
+        "entropy": 15
+    },
+    "poison_ivy": {
+        "name": {
+            "zh-tw": "毒藤",
+            "en-us": "Poison Ivy"
+        },
+        "description": {
+            "zh-tw": "含有微毒的藤蔓，可以用來製作毒藥。",
+            "en-us": "Vines containing mild poison, used for crafting toxins."
+        },
+        "price": 5,
+        "stackable": true,
+        "tags": [
+            "herb"
+        ],
+        "elements": {
+            "木": 1
+        },
+        "entropy": 1
+    },
+    "general_feed": {
+        "name": {
+            "zh-tw": "🍖 一般飼料",
+            "en-us": "General Feed"
+        },
+        "description": {
+            "zh-tw": "大部分瓶中獸都能吃。",
+            "en-us": "Suitable for most Phial Spirits."
+        },
+        "price": 10,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 20,
+        "entropy": 5
+    },
+    "poor_feed": {
+        "name": {
+            "zh-tw": "🍖 劣質飼料",
+            "en-us": "Poor Feed"
+        },
+        "description": {
+            "zh-tw": "品質糟糕，吃下去可能會不舒服。",
+            "en-us": "Poor quality, may cause discomfort if consumed."
+        },
+        "price": 5,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": [
+            10,
+            -10
+        ],
+        "entropy": 1
+    },
+    "feed_gold": {
+        "name": {
+            "zh-tw": "🍖 煉金金糧",
+            "en-us": "Feed Gold"
+        },
+        "description": {
+            "zh-tw": "雖然看起來像金子，但其實是口感酥脆的營養塊。",
+            "en-us": "Though looking like gold, it's actually a crunchy nutrition block."
+        },
+        "price": 20,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 10,
+        "elements": {
+            "金": 1
+        },
+        "entropy": 15
+    },
+    "feed_wood": {
+        "name": {
+            "zh-tw": "🍖 漫木嫩餌",
+            "en-us": "Feed Wood"
+        },
+        "description": {
+            "zh-tw": "經過生命元素催化的鮮嫩芽苗，口感極佳。",
+            "en-us": "Tender sprouts catalystized by the element of life, excellent texture."
+        },
+        "price": 20,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 10,
+        "elements": {
+            "木": 1
+        },
+        "entropy": 15
+    },
+    "feed_water": {
+        "name": {
+            "zh-tw": "🍖 湛藍水食",
+            "en-us": "Feed Water"
+        },
+        "description": {
+            "zh-tw": "將純水精華凝縮成凍狀，口感清爽。",
+            "en-us": "Pure water essence condensed into jelly, refreshing taste."
+        },
+        "price": 20,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 10,
+        "elements": {
+            "水": 1
+        },
+        "entropy": 15
+    },
+    "feed_fire": {
+        "name": {
+            "zh-tw": "🍖 烈焰肉糧",
+            "en-us": "Feed Fire"
+        },
+        "description": {
+            "zh-tw": "散發著火氣的肉乾。",
+            "en-us": "Jerky emitting a fiery warmth."
+        },
+        "price": 20,
+        "stackable": true,
+        "type": "feed",
+        "tags": [
+            "hot"
+        ],
+        "satiety_restore": 10,
+        "elements": {
+            "火": 1
+        },
+        "entropy": 15
+    },
+    "feed_earth": {
+        "name": {
+            "zh-tw": "🍖 地岩餅糧",
+            "en-us": "Feed Earth"
+        },
+        "description": {
+            "zh-tw": "使用高壓縮礦物質製作的厚實餅乾，口感紮實。",
+            "en-us": "Thick biscuits made with highly compressed minerals, solid texture."
+        },
+        "price": 20,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 10,
+        "elements": {
+            "土": 1
+        },
+        "entropy": 15
+    },
+    "feed_holy": {
+        "name": {
+            "zh-tw": "🍖 聖光精華糧",
+            "en-us": "Feed Holy"
+        },
+        "description": {
+            "zh-tw": "充滿神聖氣息的結晶塊，散發著微弱的光芒。",
+            "en-us": "Crystalline blocks filled with divine aura, emitting a faint light."
+        },
+        "price": 30,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 10,
+        "elements": {
+            "聖": 1
+        },
+        "entropy": 15
+    },
+    "feed_demon": {
+        "name": {
+            "zh-tw": "🍖 闇影魔糧",
+            "en-us": "Feed Demon"
+        },
+        "description": {
+            "zh-tw": "蘊含強大魔力的不明核心，味道非常辛辣。",
+            "en-us": "Unknown core imbued with powerful magic, tastes very spicy."
+        },
+        "price": 30,
+        "stackable": true,
+        "type": "feed",
+        "satiety_restore": 10,
+        "elements": {
+            "魔": 1
+        },
+        "entropy": 15
+    },
+    "star_steel_shavings": {
+        "name": {
+            "zh-tw": "星辰鋼屑",
+            "en-us": "Star Steel Shavings"
+        },
+        "description": {
+            "zh-tw": "墜落之星冷卻後留下的暗紫色金屬屑，堅硬且帶有微弱的星辰魔力。",
+            "en-us": "Dark purple metal shavings left after a falling star cools, hard and imbued with faint starlight magic."
+        },
+        "price": 25,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 1
+        },
+        "entropy": 5
+    },
+    "fluorescent_moss": {
+        "name": {
+            "zh-tw": "螢光苔蘚",
+            "en-us": "Fluorescent Moss"
+        },
+        "description": {
+            "zh-tw": "在黑暗中散發著幽幽綠光的苔蘚，觸感濕潤。",
+            "en-us": "Moss that emits a dim green glow in the dark, moist to the touch."
+        },
+        "price": 10,
+        "stackable": true,
+        "elements": {
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "fairy_pollen": {
+        "name": {
+            "zh-tw": "妖精粉末",
+            "en-us": "Fairy Pollen"
+        },
+        "description": {
+            "zh-tw": "閃閃發光的粉末，據說是妖精飛過時留下的痕跡。",
+            "en-us": "Sparkling powder, said to be traces left by fairies flying by."
+        },
+        "price": 15,
+        "stackable": true,
+        "elements": {
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "moist_sand": {
+        "name": {
+            "zh-tw": "潤澤河沙",
+            "en-us": "Moist Sand"
+        },
+        "description": {
+            "zh-tw": "從清澈河床採集的濕潤細沙，蘊含著水與大地的氣息。",
+            "en-us": "Moist fine sand collected from clear riverbeds, imbued with the aura of water and earth."
+        },
+        "price": 10,
+        "stackable": true,
+        "elements": {
+            "水": 1,
+            "土": 1
+        },
+        "entropy": 5
+    },
+    "warm_stone": {
+        "name": {
+            "zh-tw": "暖石",
+            "en-us": "Warm Stone"
+        },
+        "description": {
+            "zh-tw": "微微發溫的石頭，常被當作暖手爐使用。",
+            "en-us": "Slightly warm stones, often used as hand warmers."
+        },
+        "price": 12,
+        "stackable": true,
+        "tags": [
+            "hot"
+        ],
+        "elements": {
+            "火": 1
+        },
+        "entropy": 5
+    },
+    "tinder_dust": {
+        "name": {
+            "zh-tw": "易燃火粉",
+            "en-us": "Tinder Dust"
+        },
+        "description": {
+            "zh-tw": "極其容易引燃的紅色粉末，處理時需遠離火源。",
+            "en-us": "Extremely flammable red powder, keep away from fire sources when handling."
+        },
+        "price": 15,
+        "stackable": true,
+        "tags": [
+            "hot"
+        ],
+        "elements": {
+            "火": 1
+        },
+        "entropy": 5
+    },
+    "black_clay": {
+        "name": {
+            "zh-tw": "黑黏土",
+            "en-us": "Black Clay"
+        },
+        "description": {
+            "zh-tw": "質地細密的深黑色黏土，是製作陶器或塑形的極佳材料。",
+            "en-us": "Fine-textured deep black clay, an excellent material for pottery or sculpting."
+        },
+        "price": 8,
+        "stackable": true,
+        "elements": {
+            "土": 1
+        },
+        "entropy": 5
+    },
+    "shimmer_dust": {
+        "name": {
+            "zh-tw": "微光之粉",
+            "en-us": "Shimmer Dust"
+        },
+        "description": {
+            "zh-tw": "在空中緩緩飄動的發光微粒，帶有神聖的氣息。",
+            "en-us": "Glowing particles drifting slowly in the air, carrying a divine aura."
+        },
+        "price": 20,
+        "stackable": true,
+        "elements": {
+            "聖": 1
+        },
+        "entropy": 5
+    },
+    "dark_scale": {
+        "name": {
+            "zh-tw": "漆黑鱗片",
+            "en-us": "Dark Scale"
+        },
+        "description": {
+            "zh-tw": "堅硬且冰冷的黑色鱗片，不知來自何種深淵生物。",
+            "en-us": "Hard and cold black scales, source unknown but likely from some abyss creature."
+        },
+        "price": 20,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "elements": {
+            "魔": 1
+        },
+        "entropy": 5
+    },
+    "monster_meat": {
+        "name": {
+            "zh-tw": "魔物碎肉",
+            "en-us": "Monster Meat"
+        },
+        "description": {
+            "zh-tw": "帶有不詳氣息的魔物肉塊，某些生物似乎特別喜歡。",
+            "en-us": "Chunks of monster meat with an ominous aura, some creatures seem to especially enjoy it."
+        },
+        "price": 5,
+        "stackable": true,
+        "elements": {
+            "魔": 1
+        },
+        "entropy": 1
+    },
+    "leather_scrap": {
+        "name": {
+            "zh-tw": "皮革碎塊",
+            "en-us": "Leather Scrap"
+        },
+        "description": {
+            "zh-tw": "從舊皮具上掉下的碎塊，或許還有點用處。",
+            "en-us": "Fragments dropped from old leather goods, might still be of some use."
+        },
+        "price": 3,
+        "stackable": true,
+        "entropy": 1
+    },
+    "iron_scrap": {
+        "name": {
+            "zh-tw": "鐵片",
+            "en-us": "Iron Scrap"
+        },
+        "description": {
+            "zh-tw": "常見的金屬素材",
+            "en-us": "A common metal material."
+        },
+        "price": 2,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 1
+        },
+        "entropy": 1
+    },
+    "cloth_scrap": {
+        "name": {
+            "zh-tw": "布料碎塊",
+            "en-us": "Cloth Scrap"
+        },
+        "description": {
+            "zh-tw": "一塊普通的麻布或棉布碎片。",
+            "en-us": "A common fragment of linen or cotton cloth."
+        },
+        "price": 2,
+        "stackable": true,
+        "entropy": 1
+    },
+    "fire_dust": {
+        "name": {
+            "zh-tw": "火粉",
+            "en-us": "Fire Dust"
+        },
+        "description": {
+            "zh-tw": "易燃的高能粉末。",
+            "en-us": "Flammable high-energy powder."
+        },
+        "price": 20,
+        "stackable": true,
+        "tags": [
+            "hot"
+        ],
+        "elements": {
+            "火": 1
+        },
+        "entropy": 5
+    },
+    "blaze_pepper": {
+        "name": {
+            "zh-tw": "烈焰椒",
+            "en-us": "Blaze Pepper"
+        },
+        "description": {
+            "zh-tw": "辛辣燃燒的果實。",
+            "en-us": "Spicy, burning fruit."
+        },
+        "price": 15,
+        "stackable": true,
+        "tags": [
+            "hot"
+        ],
+        "elements": {
+            "火": 1,
+            "木": 1
+        },
+        "entropy": 5
+    },
+    "charcoal": {
+        "name": {
+            "zh-tw": "木炭",
+            "en-us": "Charcoal"
+        },
+        "description": {
+            "zh-tw": "焦黑的燃料。",
+            "en-us": "Charred fuel."
+        },
+        "price": 5,
+        "stackable": true,
+        "elements": {
+            "火": 1,
+            "木": 1
+        },
+        "entropy": 1
+    },
+    "lava_sand": {
+        "name": {
+            "zh-tw": "熔岩砂",
+            "en-us": "Lava Sand"
+        },
+        "description": {
+            "zh-tw": "帶有火元素的紅砂。",
+            "en-us": "Red sand imbued with the fire element."
+        },
+        "price": 12,
+        "stackable": true,
+        "tags": [
+            "hot"
+        ],
+        "elements": {
+            "火": 1,
+            "土": 1
+        },
+        "entropy": 5
+    },
+    "lava_essence": {
+        "name": {
+            "zh-tw": "熔岩核心",
+            "en-us": "Lava Essence"
+        },
+        "description": {
+            "zh-tw": "凝聚了極高熱能的火元素精華，散發著令人無法直視的紅光。",
+            "en-us": "Fire element essence condensing extremely high heat, emitting a dazzling red light."
+        },
+        "price": 200,
+        "stackable": true,
+        "tags": [
+            "hot"
+        ],
+        "elements": {
+            "火": 4
+        },
+        "entropy": 50
+    },
+    "silver_ore": {
+        "name": {
+            "zh-tw": "銀礦",
+            "en-us": "Silver Ore"
+        },
+        "description": {
+            "zh-tw": "閃爍冷冽光芒的礦材。",
+            "en-us": "Ore shimmering with a cold light."
+        },
+        "price": 50,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 2
+        },
+        "entropy": 15
+    },
+    "mythril_shard": {
+        "name": {
+            "zh-tw": "秘銀屑",
+            "en-us": "Mythril Shard"
+        },
+        "description": {
+            "zh-tw": "神聖金屬的碎屑。",
+            "en-us": "Shards of divine metal."
+        },
+        "price": 100,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 1,
+            "聖": 1
+        },
+        "entropy": 30
+    },
+    "dark_iron": {
+        "name": {
+            "zh-tw": "黑鐵",
+            "en-us": "Dark Iron"
+        },
+        "description": {
+            "zh-tw": "冰冷的沉重金屬。",
+            "en-us": "Cold and heavy metal."
+        },
+        "price": 60,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 1,
+            "魔": 1
+        },
+        "entropy": 30
+    },
+    "star_ore": {
+        "name": {
+            "zh-tw": "星礦",
+            "en-us": "Star Ore"
+        },
+        "description": {
+            "zh-tw": "墜星中的稀有礦石。",
+            "en-us": "Rare ore found within fallen stars."
+        },
+        "price": 150,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 3
+        },
+        "entropy": 50
+    },
+    "mercury_drop": {
+        "name": {
+            "zh-tw": "汞滴",
+            "en-us": "Mercury Drop"
+        },
+        "description": {
+            "zh-tw": "常溫下呈液態的金屬。",
+            "en-us": "Metal that remains liquid at room temperature."
+        },
+        "price": 40,
+        "stackable": true,
+        "tags": [
+            "metal"
+        ],
+        "elements": {
+            "金": 1,
+            "水": 1
+        },
+        "entropy": 15
+    },
+    "crystal_cluster": {
+        "name": {
+            "zh-tw": "晶簇碎片",
+            "en-us": "Crystal Cluster"
+        },
+        "description": {
+            "zh-tw": "洞窟中發現的發光晶束。",
+            "en-us": "Glowing crystal clusters found in caves."
+        },
+        "price": 55,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "elements": {
+            "土": 2
+        },
+        "entropy": 15
+    },
+    "heavy_ore": {
+        "name": {
+            "zh-tw": "重岩",
+            "en-us": "Heavy Ore"
+        },
+        "description": {
+            "zh-tw": "極高密度的沉重岩塊。",
+            "en-us": "Extremely dense and heavy rock chunks."
+        },
+        "price": 50,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "elements": {
+            "土": 2
+        },
+        "entropy": 15
+    },
+    "magma_rock": {
+        "name": {
+            "zh-tw": "熔岩石",
+            "en-us": "Magma Rock"
+        },
+        "description": {
+            "zh-tw": "冷卻後的火山岩。",
+            "en-us": "Volcanic rock after cooling."
+        },
+        "price": 25,
+        "stackable": true,
+        "tags": [
+            "hot",
+            "hard"
+        ],
+        "elements": {
+            "土": 1,
+            "火": 1
+        },
+        "entropy": 15
+    },
+    "petrified_wood": {
+        "name": {
+            "zh-tw": "古木根",
+            "en-us": "Petrified Wood"
+        },
+        "description": {
+            "zh-tw": "堅硬的古木根塊化石。",
+            "en-us": "Hard fossilized roots of ancient trees."
+        },
+        "price": 80,
+        "stackable": true,
+        "tags": [
+            "hard"
+        ],
+        "elements": {
+            "土": 1,
+            "木": 1
+        },
+        "entropy": 30
+    },
+    "saltpeter": {
+        "name": {
+            "zh-tw": "硝石",
+            "en-us": "Saltpeter"
+        },
+        "description": {
+            "zh-tw": "常見的白色煉金素材。",
+            "en-us": "A common white alchemy material."
+        },
+        "price": 15,
+        "stackable": true,
+        "elements": {
+            "土": 1
+        },
+        "entropy": 5
+    },
+    "precious_ore": {
+        "name": {
+            "zh-tw": "精金",
+            "en-us": "Precious Ore"
+        },
+        "description": {
+            "zh-tw": "煉精術創造的合成金屬，是許多高階武器的材料，價值不斐",
+            "en-us": "Synthetic metal created through advanced alchemy, used for high-tier weapons, highly valuable."
+        },
+        "price": 1000,
+        "stackable": true,
+        "tags": [
+            "metal",
+            "hard"
+        ],
+        "elements": {
+            "金": 5
+        },
+        "entropy": 250
+    },
+    "potion_deteriorated_heal": {
+        "name": {
+            "zh-tw": "變質的治療藥水",
+            "en-us": "Potion Deteriorated Heal"
+        },
+        "description": {
+            "zh-tw": "這瓶藥水散發著不詳的異味，效果不太穩定。",
+            "en-us": "This potion emits an ominous odor, its effects are somewhat unstable."
+        },
+        "price": 10,
+        "stackable": true,
+        "type": "potion",
+        "tags": [
+            "liquid"
+        ],
+        "elements": {
+            "水": 1,
+            "魔": 1
+        },
+        "hp_restore": [
+            15,
+            -15
+        ],
+        "entropy": 5
+    },
+    "potion_slow_hunger": {
+        "name": {
+            "zh-tw": "緩餓藥劑",
+            "en-us": "Potion Slow Hunger"
+        },
+        "description": {
+            "zh-tw": "食用後一小時內，探索等扣減的飽食度減半。",
+            "en-us": "Halves satiety reduction from exploration and other activities for one hour after consumption."
+        },
+        "price": 20,
+        "stackable": true,
+        "type": "potion",
+        "slow_hunger_duration": 3600,
+        "entropy": 5
+    },
+    "stone": {
+        "name": {
+            "zh-tw": "石頭",
+            "en-us": "Stone"
+        },
+        "description": {
+            "zh-tw": "隨處可見的普通石頭。",
+            "en-us": "A common stone found everywhere."
+        },
+        "price": 1,
+        "stackable": true,
+        "elements": {
+            "土": 1
+        },
+        "entropy": 1
+    },
+    "gold_nugget": {
+        "name": {
+            "zh-tw": "金塊",
+            "en-us": "Gold Nugget"
+        },
+        "description": {
+            "zh-tw": "價值斐然，煉金術師的檢驗標準。",
+            "en-us": "Highly valuable, the benchmark for alchemists."
+        },
+        "price": 500,
+        "stackable": true,
+        "elements": {
+            "金": 3
+        },
+        "entropy": 100
+    },
+    "sulfur": {
+        "name": {
+            "zh-tw": "硫磺",
+            "en-us": "Sulfur"
+        },
+        "description": {
+            "zh-tw": "帶有強烈刺鼻氣味的淺黃色脆性結晶，是許多煉金配方中熱能的來源。",
+            "en-us": "A pale yellow brittle crystal with a strong pungent odor, a heat source for many alchemy recipes."
+        },
+        "price": 15,
+        "stackable": true,
+        "elements": {
+            "火": 1,
+            "土": 1
+        },
+        "entropy": 5
+    },
+    "philosopher_stone": {
+        "name": {
+            "zh-tw": "賢者之石",
+            "en-us": "Philosopher Stone"
+        },
+        "description": {
+            "zh-tw": "煉金術的終極目標。",
+            "en-us": "The ultimate goal of alchemy."
+        },
+        "price": -1,
+        "stackable": false,
+        "tags": [
+            "legendary"
+        ],
+        "elements": {
+            "金": 99,
+            "木": 99,
+            "水": 99,
+            "火": 99,
+            "土": 99,
+            "聖": 99,
+            "魔": 99
+        },
+        "entropy": 999999999
+    },
+    "copper_ore_clump": {
+        "name": {
+            "zh-tw": "銅礦塊",
+            "en-us": "Copper Ore Clump"
+        },
+        "description": {
+            "zh-tw": "導電良好的過渡物質。",
+            "en-us": "A transitional substance with good electrical conductivity."
+        },
+        "price": 10,
+        "stackable": true,
+        "elements": {
+            "金": 1
+        },
+        "entropy": 5
+    },
+    "pyrite_nugget": {
+        "name": {
+            "zh-tw": "愚人金",
+            "en-us": "Pyrite Nugget"
+        },
+        "description": {
+            "zh-tw": "空有金子的外表，質地卻脆弱。",
+            "en-us": "Looks like gold, but brittle in texture."
+        },
+        "price": 12,
+        "stackable": true,
+        "elements": {
+            "金": 1
+        },
+        "entropy": 3
+    },
+    "lead_chunk": {
+        "name": {
+            "zh-tw": "鉛塊",
+            "en-us": "Lead Chunk"
+        },
+        "description": {
+            "zh-tw": "灰金色的第一物質。",
+            "en-us": "The grey-gold primary matter."
+        },
+        "price": 5,
+        "stackable": true,
+        "elements": {
+            "金": 1
+        },
+        "entropy": 1
+    },
+    "mist_condensation": {
+        "name": {
+            "zh-tw": "霧凝水",
+            "en-us": "Mist Condensation"
+        },
+        "description": {
+            "zh-tw": "在清晨霧氣中自然凝結的液滴。",
+            "en-us": "Liquid droplets naturally condensed from morning mist."
+        },
+        "price": 8,
+        "stackable": true,
+        "elements": {
+            "水": 1
+        },
+        "entropy": 5
+    },
+    "blue_ice_crystal": {
+        "name": {
+            "zh-tw": "藍冰晶",
+            "en-us": "Blue Ice Crystal"
+        },
+        "description": {
+            "zh-tw": "在寒冷地帶常見的藍色冰晶，散發著淡淡的寒氣。",
+            "en-us": "Blue ice crystals common in cold regions, emitting a faint chill."
+        },
+        "price": 15,
+        "stackable": true,
+        "elements": {
+            "水": 1
+        },
+        "entropy": 10
+    },
+    "water_spirit_mucus": {
+        "name": {
+            "zh-tw": "水靈膠",
+            "en-us": "Water Spirit Mucus"
+        },
+        "description": {
+            "zh-tw": "水靈類生物分泌的透明黏液。",
+            "en-us": "Transparent mucus secreted by water spirit creatures."
+        },
+        "price": 12,
+        "stackable": true,
+        "elements": {
+            "水": 1
+        },
+        "entropy": 8
+    },
+    "igneous_salamander_scale": {
+        "name": {
+            "zh-tw": "火蜥蜴鱗片",
+            "en-us": "Igneous Salamander Scale"
+        },
+        "description": {
+            "zh-tw": "生活在熔岩中的蜥蜴鱗片，觸感熾熱。",
+            "en-us": "Scales from salamanders living in lava, sizzling to the touch."
+        },
+        "price": 15,
+        "stackable": true,
+        "elements": {
+            "火": 1
+        },
+        "entropy": 10
+    },
+    "igneous_marrow": {
+        "name": {
+            "zh-tw": "火成骨髓",
+            "en-us": "Igneous Marrow"
+        },
+        "description": {
+            "zh-tw": "地底生物骨骼中殘留的火元素精華，能提供穩定的熱能。",
+            "en-us": "Fire element essence remaining in the bones of subterranean creatures, providing stable heat."
+        },
+        "price": 25,
+        "stackable": true,
+        "elements": {
+            "火": 1
+        },
+        "entropy": 15
+    },
+    "heavenly_feather": {
+        "name": {
+            "zh-tw": "天羽",
+            "en-us": "Heavenly Feather"
+        },
+        "description": {
+            "zh-tw": "帶有神聖氣息的羽毛。",
+            "en-us": "A feather carrying a divine aura."
+        },
+        "price": 55,
+        "stackable": true,
+        "elements": {
+            "聖": 1
+        },
+        "entropy": 30
+    },
+    "artificial_ether": {
+        "name": {
+            "zh-tw": "人工乙太種",
+            "en-us": "Artificial Ether"
+        },
+        "description": {
+            "zh-tw": "透過煉金術合成的乙太種子，是瓶中獸的核心",
+            "en-us": "Ether seeds synthesized through alchemy, the core of Phial Spirits."
+        },
+        "price": 250,
+        "stackable": true,
+        "entropy": 100
+    }
+}

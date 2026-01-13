@@ -1,0 +1,35 @@
+{
+    "probability": 0.1,
+    "cooldown_seconds": 60,
+    "reward_pool": [
+        {
+            "type": "gold",
+            "weight": 50,
+            "min": 5,
+            "max": 15
+        },
+        {
+            "type": "stamina",
+            "weight": 20,
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "weight": 30,
+            "pool": [
+                {
+                    "id": "water_flask",
+                    "weight": 40
+                },
+                {
+                    "id": "general_feed",
+                    "weight": 30
+                },
+                {
+                    "id": "saltpeter",
+                    "weight": 30
+                }
+            ]
+        }
+    ]
+}
